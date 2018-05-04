@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    font-family: 'FontAwesome';
+}
+.content > h3 {
+    color: #1565c0;
+    font-family: 'FontAwesome';
+}
+.content,
+.contactinfo {
+    margin: 30px 50px 20px 50px;
+}
+.content,
+.contactinfo,
+.note >p {
+    text-transform: uppercase;
+}
+.content,
+.contactinfo > .type > p {
+    text-transform: uppercase;
+}
+.content,
+.contactinfo > .text > p {
+    text-transform: uppercase;
+}
+.content > .typecompany > p {
+    text-transform: uppercase;
+}
+span {
+    color: red;
+}
+.type,
+.text  {
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.infocountry {
+    width: 26%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.line {
+    width: 70%;
+    height: 2px;
+    background-color:#FAFAFA;
+}
+
+form > input {
+    height: 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: inline;
+}
+form > select {
+    width: 60%;
+    height: 25px;
+    border-radius: 4px;
+}
+.clearfix {
+    clear: both;
+}
+.duration {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.position,
+.duration,
+.country {
+    width: 60%;
+    height: 25px;
+    border-radius: 4px;
+}
+form > textarea {
+    width: 70%;
+    border-color: #E6E6E6;
+}
+.form_one, 
+.form_two {
+    text-transform: capitalize;
+    width: 25%;
+    border-color: #E6E6E6;
+    float: left;
+}
+.form_one > form > fieldset > p > input {
+    border-color: #E6E6E6;
+    border-radius: 4px;
+    border-style: solid;
+    width: -webkit-will-available;
+}
+fieldset {
+    border-radius: 4px;
+    border-color: #E6E6E6;
+    border-style: solid;
+    float: left;    
+}
+fieldset > input {
+    width: -webkit-will-available;
+}
+.form_two > form > fieldset {
+    width: 50%;
+}

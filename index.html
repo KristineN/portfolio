@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" href="css/uikit.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/uikit.almost-flat.min.css" type="text/css">
+		<link rel="stylesheet" href="css/uikit.gradient.css" type="text/css">
+		<style>
+		@font-face {
+			font-family: 'FontAwesome';
+			src: url(fonts/fontawesome-webfont.ttf);
+		}
+		</style>
+		
+    </head>
+<body>
+    <div class="main">
+            <h3>
+                Company Date
+            </h3>
+            <hr>
+        <div class="content">
+            <div class="type">
+            
+            <p>
+                Retayler type<span>*</span>
+            </p>
+            <form style="display:inline-flex;">
+                    <input type="radio" name="status" value="Active">Active<br>
+                    <input type="radio"name="status" value="Inactive">Inactive<br>
+                    <input type="radio" name="status" value="Prospective">Prospective 
+            </form>
+        </div>
+            <div class="text">
+                    <p>Shop name <span>*</span></p>
+                    <form>
+                            <input type="text" size="40" placeholder="shop name">
+                    </form>
+            </div>
+            <div class="clearfix"></div>
+            <hr class="line">
+          <div class="type">
+                
+                <p>
+                        Company type<span>*</span>
+                    </p>
+                    <form style="display:inline-flex;">
+                        <input type="radio" name="type" value="Sole Trader">Sole Trader<br>
+                        <input type="radio"name="type" value="Limited Company">Limited Company<br>
+                        <input type="radio" name="type" value="Partnership">Partnership 
+                    </form>
+          </div>
+          <div class="text">
+                <p>Business type <span>*</span></p>
+                <form style="display:inline-flex;">
+                        <input type="radio" name="type" value="Retailer">Retailer<br>
+                        <input type="radio"name="type" value="Wholesaler">Wholesaler<br>
+                        <input type="radio" name="type" value="Internet Retailer ">Internet Retailer 
+                </form>
+        </div>
+        <div class="clearfix"></div>
+            <hr class="line">
+            <div class="type">
+                    <p>How long have you been trading? <span>*</span></p>
+                    <form style="display:inline-flex; width: 100%"> 
+                            <select name='duration' class="duration">
+                                <option value='7'>More than 7 years</option>
+                                <option value='6'>7 years</option>
+                                <option value='6'>6 years</option>
+                                <option value='5'>5 years</option>
+                                <option value='4'>4 years</option>
+                                <option value='3'>3 years</option>
+                                <option value='2'>2 years</option>
+                                <option value='1'>1 year</option>
+                                <option value='1'>New Business</option>
+                            </select>
+                        </form>
+            </div>
+            <div class="text">
+                    <p>When will you start<span>*</span></p>
+                    <form>
+                            <input type="date" name="calendar" placeholder="yy-mm-dd">
+                    </form>
+            </div>
+            <div class="clearfix"></div>
+            <hr class="line">
+          <div class="type">
+                <p>
+                      Have you already chosen your traiding location<span>*</span>
+                </p>
+                    <form style="display:inline-flex;">
+                        <input type="radio" name="answer" value="Yes">Yes<br>
+                        <input type="radio"name="answer" value="No">No<br> 
+                    </form>
+          </div>
+          <div class="clearfix"></div>
+                <h3>
+                    Personal Details
+                </h3>
+                <hr>
+                <div class="type">
+                
+                        <p>
+                                Company position<span>*</span>
+                        </p>
+                        <form style="width:100%"> 
+                                <select name='position' class="position">
+                                    <option value='7'>Owner</option>
+                                    <option value='6'>Partner</option>
+                                    <option value='6'>Director</option>
+                                    <option value='5'>Manager</option>
+                                    <option value='4'>Other</option>
+                                </select>
+                        </form>
+                  </div>
+
+                  <div class="clearfix"></div>
+                  <hr class="line">
+
+                  <div class="type">
+                        <p>First name <span>*</span></p>
+                        <form>
+                                <input type="text" size="40" placeholder="First name" pattern="[A-Za-zА-Яа-яЁё]">
+                        </form>
+                    </div>
+                        <div class="text">
+                                <p>Last name <span>*</span></p>
+                                <form>
+                                        <input type="text" size="40" placeholder="Last name" pattern="[A-Za-zА-Яа-яЁё]">
+                                </form>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <hr class="line">
+
+                        <div class="type">
+                              <p>2nd contact - first name </p>
+                              <form>
+                                      <input type="text" size="40" pattern="[A-Za-zА-Яа-яЁё]">
+                              </form>
+                          </div>
+                              <div class="text">
+                                      <p>2nd contact - Last name </p>
+                                      <form>
+                                              <input type="text" size="40" pattern="[A-Za-zА-Яа-яЁё]">
+                                      </form>
+                              </div>
+                        
+
+                </div>
+                <div class="clearfix"></div>
+                <div class="contactinfo">
+                        <h3>
+							Contact Information
+						</h3>
+						<hr>
+						<div class="type">
+								<p>Email address <span>*</span></p>
+							<form>
+									<input type='email' placeholder='Your email'name="email" style="width: 61%">
+							</form>
+							</div>
+
+							<div class="clearfix"></div>
+							<hr class="line">
+
+							<div class="type">
+									<p>Password (min 6 characters) <span>*</span></p>
+									<form>
+										<input type="password" maxlength="25" size="40" name="password">
+									</form>
+							</div>
+							<div class="text">
+								<p>Re-Type Password <span>*</span></p>
+									<form>
+										<input type="password" maxlength="25" size="40" name="password">
+									</form>
+							</div>
+							<div class="clearfix"></div>
+							<hr class="line">
+							
+							<div class="type">
+									<p>Address Line 1 <span>*</span></p>
+									<form>
+										<input type="address" maxlength="25" size="40" name="address">
+									</form>
+							</div>
+							<div class="text">
+								<p>Address Line 2 <span>*</span></p>
+									<form>
+										<input type="address" maxlength="25" size="40" name="address">
+									</form>
+							</div>
+
+							<div class="clearfix"></div>
+							<hr class="line">
+							
+							<div class="type">
+									<p>Coordinate Latitude</p>
+									<form>
+										<input type="address" maxlength="25" size="40" name="address">
+									</form>
+							</div>
+							<div class="text">
+								<p>Coordinate Longitude</p>
+									<form>
+										<input type="address" maxlength="25" size="40" name="address">
+									</form>
+							</div>
+
+							<div class="clearfix"></div>
+							<hr class="line">
+							
+							<div class="type">
+									<p>Phone Number <span>*</span></p>
+									<form>
+										<input type="tel" name="phone_number" pattern="[0-9]{3}-[0-9]{3}" placeholder="044 12 34 56">
+									</form>
+							</div>
+							<div class="text">
+								<p>Mobile <span>*</span></p>
+									<form>
+										<input type="tel" name="phone_number" pattern="[0-9]{3}-[0-9]{3}" placeholder="+38 (097) 123-45-67">
+									</form>
+							</div>
+
+							<div class="clearfix"></div>
+							<hr class="line">
+							
+							<div class="type">
+									<p>City<span>*</span></p>
+									<form>
+										<input type="text" maxlength="25" size="40" name="city">
+									</form>
+							</div>
+							<div class="text">
+								<p>Post Code / Zip Code <span>*</span></p>
+									<form>
+										<input type="text" maxlength="25" size="40" name="city">
+									</form>
+							</div>
+
+							<div class="clearfix"></div>
+							<hr class="line">
+							
+							<div class="infocountry">
+									<p>County<span>*</span></p>
+									<form>
+										<input type="text" maxlength="25" size="40" name="city">
+									</form>
+							</div>
+							<div class="infocountry">
+								<p>State <span>*</span></p>
+									<form>
+										<input type="text" maxlength="25" size="40" name="city">
+									</form>
+							</div>
+							<div class="infocountry">
+									<p>Country <span>*</span></p>
+									<form > 
+										<select name='country' class="country">
+											<option value='Austria'>Austria</option>
+											<option value='Australia'>Australia</option>
+											<option value='Belarus'>Belarus</option>
+											<option value='Bulgaria'>Bulgaria</option>
+											<option value='Canada'>Canada</option>
+											<option value='Czech Republic'>Czech Republic</option>
+											<option value='Denmark'>Denmark</option>
+											<option value='France'>France</option>
+											<option value='United Kingdom'>United Kingdom</option>
+											<option value='Italy'>Italy</option>
+											<option value='Japan'>Japan</option>
+											<option value='Latvia'>Latvia</option>
+											<option value='Mexico'>Mexico</option>
+											<option value='Moldova'>Moldova</option>
+											<option value='Netherlands'>Netherlands</option>
+											<option value='Norway'>Norway</option>
+											<option value='Poland'>Poland</option>
+											<option value='Russia'>Russia</option>
+											<option value='Slovakia'>Slovakia</option>
+											<option value='Spain'>Spain</option>
+											<option value='Sweden'>Sweden</option>
+											<option value='Thailand'>Thailand</option>
+											<option value='Ukraine'>Ukraine</option>
+											<option value='United States of America'>United States of America</option>
+											<option value='Uzbekistan'>Uzbekistan</option>
+											<option value='Venezuela'>Venezuela</option>
+										</select>
+									</form>
+								</div>
+								<div class="clearfix"></div>
+								<hr class="line">
+							
+								<div class="type">
+									<p>Prefered Currency<span>*</span></p>
+									<form > 
+											<select name='courency' class="courency">
+												<option value='eur'>EUR</option>
+												<option value='usd'>USD</option>
+												<option value='usd'>GBP</option>
+												<option value='usd'>CAD</option>
+												<option value='usd'>AUD</option>
+												<option value='usd'>BYN</option>
+												<option value='usd'>VEB</option>
+												<option value='usd'>NLG</option>
+												<option value='usd'>DKK</option>
+												<option value='usd'>ESP</option>
+											</select>
+										</form>
+								</div>
+								<div class="text">
+									<p>Website <span>*</span></p>
+									<form>
+										<input type="text" maxlength="25" size="40" name="site">
+									</form>
+								</div>
+
+								<div class="clearfix"></div>
+								<hr class="line">
+
+								<div class="note">
+									<p>Note <span>*</span></p>
+									<form>
+										<textarea rows="10" cols="50" name="text" placeholder="Add note here" ></textarea>
+									</form>
+								</div>
+
+								<div class="clearfix"></div>
+								
+
+								<div class="formtocollection">
+									<h3>
+										Collection to stock
+									</h3>
+									<hr>
+									<div class="form_one">
+											<form>
+													<fieldset>
+														<p>
+															<input type="checkbox" name="choose" value="all">All <br>
+														</p>
+														<p>
+															Supplier 1 <span>*</span><br>
+															<input name="text"> 
+														</p>
+														<p>
+															Supplier 2 <br>
+															<input name="text">
+														</p>
+														<p>
+															Supplier 3 <br>
+															<input name="text">
+														</p>
+													</fieldset>
+												</form>
+									</div>
+									<div class="form_two">
+											<form>
+													<fieldset>
+														<p>
+															<input type="checkbox" name="choose" value="text">Lenovia Bridal <br>
+														</p>
+													</fieldset>
+												</form>
+									</div>
+									<div class="form_two">
+											<form>
+													<fieldset>
+														<p>
+															<input type="checkbox" name="choose" value="text">Labella Figura <br>
+														</p>
+													</fieldset>
+												</form>
+									</div>
+									<div class="form_two">
+											<form>
+													<fieldset>
+														<p>
+															<input type="checkbox" name="choose" value="text">Bridesmaids <br>
+														</p>
+													</fieldset>
+												</form>
+									</div>
+								</div>
+
+								
+
+                </div>
+                
+            </div>
+            
+            
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+                <h3>
+                        Company Data
+                </h3>
+                <hr>
+                <div class="type">
+                        <p >
+                                <b>Retayler type</b> <span>*</span><br>
+                            </p>
+                   
+                            
+                            <input type="radio" name="status" value="Active">Active<br>
+                            <input type="radio"name="status" value="Inactive">Inactive<br>
+                            <input type="radio" name="status" value="Prospective">Prospective
+                    </form>   
+                </div>
+                <div>
+                        <form name="test" method="POST" style="display: inline-flex;">
+                            <p><b>Choise your country</b><br></p>
+                            <input type="radio" name="country" value="Ukraine">Ukraine<br>
+                            <input type="radio"name="country" value="England">England<br>
+                            <input type="radio" name="country" value="Russia">Russia
+                        </form>
+                </div>
+                    
+                <form>
+                        <p>Выберите дату: <input type="date" name="calendar">
+                        <input type="submit" value="Отправить"></p>
+                       </form>
+                        
+                        <p>
+                            Comments<br>
+                        </p>        
+                            <textarea name="comment" cols="50" rows="3"></textarea>
+                        
+                       
+                            <input type="submit" value="Sent">
+                            <input type="reset" value="Clear">
+                        
+                    
+        </div>
+    
+-->
+</div>
+</body>
+</html>
