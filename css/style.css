@@ -9,9 +9,27 @@ body {
     display: inline-block;
     font-family: 'FontAwesome';
 }
-.content > h3 {
+
+.main > .content > h3 {
     color: #1565c0;
     font-family: 'FontAwesome';
+    font-weight: bold;
+    
+}
+.main > .contactinfo > h3 {
+    color: #1565c0;
+    font-family: 'FontAwesome';
+    font-weight: bold;
+}
+.main > .contactinfo > .formtocollection > h3 {
+    color: #1565c0;
+    font-family: 'FontAwesome';
+    font-weight: bold;
+}
+.main > .contactinfo > .subscription > h3 {
+    color: #1565c0;
+    font-family: 'FontAwesome';
+    font-weight: bold;
 }
 .content,
 .contactinfo {
@@ -102,11 +120,27 @@ fieldset {
     border-radius: 4px;
     border-color: #E6E6E6;
     border-style: solid;
-    float: left;    
+    float: left;  
+    width: 80%;  
 }
 fieldset > input {
     width: -webkit-will-available;
 }
 .form_two > form > fieldset {
-    width: 50%;
+    width: 80%;
+}
+.final_form > form > p > input {
+    width: 47%;
+    height: 20px;
+    border-style: outset;
+    border-radius: 4px;
+}
+button {
+    height: 35px;
+    width: 125px;
+    color: #ffff;
+    background-color: green;
+    border-radius: 4px;
+    border-style: outset;
+    font-family: 'FontAwesome';
 }
